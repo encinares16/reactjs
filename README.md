@@ -13,3 +13,10 @@
 
 #### Screenshot
 ![Screenshot](react-projects/react-counter/src/assets/images/screenshot.png)
+
+#### 3. ReactJS To-do App <br/> 
+[UI Design Figma](https://www.figma.com/file/FrS8I6nGSoJ014W9VTShUN/React---Card?type=design&node-id=0-1&mode=design)<br/> 
+[Project Link](react-projects/react-todoapp) <br/> 
+
+#### Screenshot
+![Screenshot](react-projects/react-todoapp/src/assets/images/screenshot.png)
