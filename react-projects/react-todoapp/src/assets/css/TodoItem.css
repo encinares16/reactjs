@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.todo_items {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: var(--color-gray-input);
+  border-radius: 6px;
+  padding: 2.2rem;
+  height: 16rem;
+}
+
+.todo_items div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.todo_items div p {
+  font-size: 10px;
+  border-radius: 6px;
+  padding: .7rem 1rem;
+  background-color: #909090;
+}
+
+.todo_items div .Done { background-color: var(--bgcolor-done); }
+.todo_items div .Not.Done { background-color: var(--bgcolor-undone); }
+
+.todo_items div .Personal { background-color: #5ecdd1; }
+.todo_items div .Business { background-color: #cf5ed1; }
+.todo_items div .Work { background-color: #5e5ed1; }
+.todo_items div .Home { background-color: #4af2b5f1; }
+
+.todo_items div #marked_button {
+  cursor: pointer;
+  color: var(--color-light);
+  text-align: center;
+  font-size: 10px;
+  border-radius: 6px;
+  border: none;
+  padding: 1.5rem 1rem 0;
+  background-color: #ffffff00;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.created {
+  color: var(--color-light);
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.title {
+  position: relative;
+  color: var(--color-light);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  top: -18px;
+}
+
+.cross_icon {
+  position: relative;
+  top: 4rem;
+  right: -475px;
+  cursor: pointer;
+}
+
